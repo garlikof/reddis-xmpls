@@ -1,0 +1,13 @@
+spring:
+  redis:
+    username: default
+    password: GGL2nYC4zU
+    host: localhost
+    port: 6379
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+app:
+  numberOfRatings: 100
+  ratingStars: 5
+  numberOfCarts: 500
+  booksSearchIndexName: books-idx
